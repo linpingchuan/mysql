@@ -6,7 +6,8 @@
 1. [MySQL 插件详解](https://jin-yang.github.io/post/mysql-plugin.html)
 2. [编写 MySQL 储存引擎](https://dev.mysql.com/doc/internals/en/custom-engine.html)
 3. [编写自己的 MySQL 插件](https://dev.mysql.com/doc/refman/8.0/en/writing-plugins.html)
-
+4. [编写 MySQL 插件](https://dev.mysql.com/doc/refman/8.0/en/writing-plugins-overview.html)
+5. [MariaDB 教程](https://mariadb.com/kb/en/library/development-writing-plugins-for-mariadb/)
 ### 项目地址
 
 
