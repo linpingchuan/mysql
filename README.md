@@ -20,6 +20,12 @@ sudo apt-get install libmysqld-dev -y
 sudo apt-get install libmysql++-dev
 ```
 
+## CLion 中，进行编译
+```
+# cmake option
+-DCMAKE_BUILD_TYPE=Debug --DWITH_BOOST=~/boost/boost_1_69_0
+```
+
 ### 参考文档
 1. [MySQL 插件详解](https://jin-yang.github.io/post/mysql-plugin.html)
 2. [编写 MySQL 储存引擎](https://dev.mysql.com/doc/internals/en/custom-engine.html)
