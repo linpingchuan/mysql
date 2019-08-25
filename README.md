@@ -21,9 +21,14 @@ sudo apt-get install libmysql++-dev
 ```
 
 ## CLion 中，进行编译
-```
+```shell
 # cmake option
 -DCMAKE_BUILD_TYPE=Debug --DWITH_BOOST=~/boost/boost_1_69_0
+```
+
+## 编译后 启动 MySQLd
+```shell
+mysqld -uroot --initialize-insecure
 ```
 
 ### 参考文档
