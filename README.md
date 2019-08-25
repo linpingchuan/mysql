@@ -26,7 +26,7 @@ sudo apt-get install libmysql++-dev
 -DCMAKE_BUILD_TYPE=Debug --DWITH_BOOST=~/boost/boost_1_69_0
 ```
 
-## 编译后 启动 MySQLd
+## 编译后 启动 mysqld
 ```shell
 mysqld -uroot --initialize-insecure
 mysqld -uroot 
@@ -35,7 +35,14 @@ mysqld -uroot
 lsof -i | grep 33060
 ```
 
-### 参考文档
+## 心得体会
+[编写 MySQL 插件](./plugins/doc/README.md)
+
+## 项目地址 (自学练习用的项目编写地址)
+
+
+
+## 参考文档
 1. [MySQL 插件详解](https://jin-yang.github.io/post/mysql-plugin.html)
 2. [编写 MySQL 储存引擎](https://dev.mysql.com/doc/internals/en/custom-engine.html)
 3. [编写自己的 MySQL 插件](https://dev.mysql.com/doc/refman/8.0/en/writing-plugins.html)
@@ -45,8 +52,5 @@ lsof -i | grep 33060
 7. [MySQL 图片插件](https://github.com/netkiller/mysql-image-plugin/blob/master/CMakeLists.txt)
 8. [增加MySQL链接库](https://stackoverflow.com/questions/35068444/add-and-link-mysql-libraries-in-a-cmakelist-txt)
 9. [扩展MySQL](https://www.deituicms.com/mysql8cn/cn/extending-mysql.html)
-### 项目地址
 
 
-### 心得体会
-[编写 MySQL 插件](./plugins/doc/README.md)
