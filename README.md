@@ -1,5 +1,16 @@
 # MySQL 学习文档
 
+## clone MySQL 代码，进行编译
+```
+git clone git@github.com:mysql/mysql-server.git
+sudo apt-get install make cmake gcc g++ bison libncurses5-dev build-essential -y
+sudo apt-get install libssl-dev -y 
+mkdir -pv ~/mysql-build
+cd mysql-build 
+cmake ~/mysql-server -DDEBUG=1  -DWITH_BOOST=~/boost
+make -j 4
+```
+
 ## 构建 MySQL ，编写第一个 MySQL 插件
 
 ```shell
