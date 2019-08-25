@@ -29,7 +29,7 @@ sudo apt-get install libmysql++-dev
 ## 编译后 启动 mysqld
 ```shell
 /home/lin/mysql-server/cmake-build-debug/runtime_output_directory/mysqld -uroot --initialize-insecure
-/home/lin/mysql-server/cmake-build-debug/runtime_output_directory/mysqld -uroot 
+/home/lin/mysql-server/cmake-build-debug/runtime_output_directory/mysqld -uroot -P33060
 # 启动后，默认端口为 33060
 # 可通过以下命令进行查看
 lsof -i | grep 33060
