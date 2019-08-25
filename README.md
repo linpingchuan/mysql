@@ -29,6 +29,10 @@ sudo apt-get install libmysql++-dev
 ## 编译后 启动 MySQLd
 ```shell
 mysqld -uroot --initialize-insecure
+mysqld -uroot 
+# 启动后，默认端口为 33060
+# 可通过以下命令进行查看
+lsof -i | grep 33060
 ```
 
 ### 参考文档
