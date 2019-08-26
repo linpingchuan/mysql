@@ -35,7 +35,7 @@ sudo apt-get install libmysql++-dev
 lsof -i | grep 33060
 ```
 
-## 心得体会
+## 其他文档
 [编写 MySQL 插件](./plugins/doc/README.md)
 
 ## 项目地址 (自学练习用的项目编写地址)
