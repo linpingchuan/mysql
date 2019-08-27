@@ -38,8 +38,8 @@ lsof -i | grep 33060
 ## 其他文档
 [编写 MySQL 插件](./plugins/doc/README.md)
 
-## 项目地址 (自学练习用的项目编写地址)
-
+## 项目案例 (自学练习用的项目编写地址)
+[后台日志项目](../console_log_plugin/console_log.cpp)
 
 
 ## 参考文档
