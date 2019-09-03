@@ -16,6 +16,13 @@ install plugin console_log_plugin soname 'console_log_plugin.so';
 uninstall plugin console_log_plugin;
 # 查看插件所在的目录
 show variables like 'plugin_dir';
+# 拷贝插件到相应的目录下
+mkdir -pv 
+# 卸载后可以删除data目录，用于重新初始化msyqld
+rm -rf /home/lin/mysql-server/cmake-build-debug/data/
+# 再进行重新初始化
+/home/lin/mysql-server/cmake-build-debug/runtime_output_directory/mysqld -uroot --initialize-insecure
+
 ```
 ## 项目案例
 [后台日志项目](../console_log_plugin/console_log.cpp)
