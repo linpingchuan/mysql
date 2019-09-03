@@ -53,4 +53,9 @@ lsof -i | grep 33060
 8. [增加MySQL链接库](https://stackoverflow.com/questions/35068444/add-and-link-mysql-libraries-in-a-cmakelist-txt)
 9. [扩展MySQL](https://www.deituicms.com/mysql8cn/cn/extending-mysql.html)
 
+## 其他优秀的文档
+1. [pingcap 人才计划](https://github.com/pingcap/talent-plan)
+2. [Large-scale Incremental Processing Using Distributed Transactions and Notifications](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36726.pdf)
+3. [raft 协议](https://raft.github.io/)
+
 
